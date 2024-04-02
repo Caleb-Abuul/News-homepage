@@ -236,12 +236,12 @@ footer {
     display: block;
     padding: 0.7rem 1.5rem;
   }
-  nav .close {
+  nav #close {
     text-align: right;
     margin: 1rem;
     z-index: 1000;
   }
-  .menu {
+  #menu {
     z-index: 10;
     position: relative;
   }
@@ -289,8 +289,8 @@ footer {
     font-size: 0.75rem;
     margin-top: 1rem;
   }
-  .close,
-  .menu {
+  #close,
+  #menu {
     display: block;
   }
 }
